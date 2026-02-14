@@ -1,0 +1,22 @@
+services:
+  chromadb:
+    image: chromadb/chroma:latest
+    ports:
+      - "8001:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+
+  postgres:
+    image: postgres:16
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: heyrag
+      POSTGRES_USER: heyrag
+      POSTGRES_PASSWORD: heyrag
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  chroma_data:
+  postgres_data:

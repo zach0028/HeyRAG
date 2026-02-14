@@ -3,10 +3,17 @@ backend/venv/
 __pycache__/
 *.pyc
 .env
+.env.local
+
+# Uploads
+backend/uploads/
 
 # Node
 frontend/node_modules/
 frontend/.next/
+
+# Claude Code
+.claude/
 
 # OS
 .DS_Store
