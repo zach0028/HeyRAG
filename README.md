@@ -7,6 +7,7 @@
 A personal project exploring RAG, voice AI and local LLMs. Chat with your documents privately using Ollama — everything runs on your machine, nothing is sent to external servers.
 
 ---
+<img width="1721" height="1075" alt="Capture d’écran 2026-02-15 à 01 33 37" src="https://github.com/user-attachments/assets/6cb90cf3-a176-4949-9618-a6a62c920f19" />
 
 ## Table of Contents
 
