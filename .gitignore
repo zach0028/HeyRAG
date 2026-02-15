@@ -1,7 +1,10 @@
 # Python
 backend/venv/
+backend/.venv/
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
 .env
 .env.local
 
@@ -17,3 +20,4 @@ frontend/.next/
 
 # OS
 .DS_Store
+Thumbs.db
