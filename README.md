@@ -68,7 +68,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 Then pull a chat model and the required embedding model:
 
 ```bash
-ollama pull llama3.2
+ollama pull gpt-oss:20b
 ollama pull nomic-embed-text
 ```
 
